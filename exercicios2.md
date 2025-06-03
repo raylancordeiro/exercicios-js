@@ -1,4 +1,93 @@
-### 1. Lista de Tarefas com Prioridades
+# Exercícios de Arrays em JavaScript
+
+## 1. `push`
+
+**Situação:**  
+Você está desenvolvendo um sistema simples para registrar a lista de compras do mês. Cada vez que o usuário adiciona um item, ele deve ser colocado no final da lista.
+
+**Desafio:**  
+Dado o array inicial `let listaDeCompras = ['Arroz', 'Feijão'];`, adicione os itens `'Leite'` e `'Ovos'` utilizando o método `push`.
+
+---
+
+## 2. `pop`
+
+**Situação:**  
+Em uma aplicação de fila de impressão, o último documento adicionado pode ser cancelado antes de ser impresso.
+
+**Desafio:**  
+Dado o array `let filaDeImpressao = ['doc1.pdf', 'doc2.pdf', 'relatorio.xls'];`, remova o último documento utilizando `pop` e mostre qual documento foi cancelado.
+
+---
+
+## 3. `shift`
+
+**Situação:**  
+Você está criando uma agenda de atendimentos. A cada novo atendimento finalizado, o primeiro nome da fila deve ser removido.
+
+**Desafio:**  
+Dado o array `let fila = ['Maria', 'João', 'Ana'];`, utilize `shift` para remover a pessoa que já foi atendida. Mostre quem foi atendido e como ficou a fila.
+
+---
+
+## 4. `unshift`
+
+**Situação:**  
+Um sistema de entregas permite adicionar entregas urgentes no início da fila.
+
+**Desafio:**  
+Dado o array `let entregas = ['Pedido 102', 'Pedido 103'];`, adicione o `'Pedido Urgente 101'` no início utilizando `unshift`.
+
+---
+
+## 5. `forEach`
+
+**Situação:**  
+Você está exibindo uma lista de tarefas para o dia com numeração.
+
+**Desafio:**  
+Dado o array `let tarefas = ['Lavar roupa', 'Estudar JS', 'Fazer exercícios'];`, utilize `forEach` para exibir cada tarefa precedida de sua posição, começando do 1.  
+**Exemplo esperado:**  
+1. Lavar roupa  
+2. Estudar JS  
+3. Fazer exercícios
+
+---
+
+## 6. `sort`
+
+**Situação:**  
+Você está criando uma ferramenta para ordenar os nomes dos alunos em ordem alfabética para um certificado.
+
+**Desafio:**  
+Dado o array `let alunos = ['Carlos', 'Amanda', 'Bruno'];`, use `sort` para ordenar os nomes e exibi-los.
+
+---
+
+## 7. `indexOf`
+
+**Situação:**  
+Um sistema de busca precisa encontrar a posição de um produto específico em um estoque.
+
+**Desafio:**  
+Dado o array `let estoque = ['Teclado', 'Mouse', 'Monitor', 'Impressora'];`, descubra a posição do item `'Monitor'` usando `indexOf`.
+
+---
+
+## 8. `includes`
+
+**Situação:**  
+Uma lista de presença deve verificar se determinado aluno está presente.
+
+**Desafio:**  
+Dado o array `let presentes = ['Lucas', 'Fernanda', 'Beatriz'];`, verifique se `'Fernanda'` está presente usando `includes` e exiba uma mensagem apropriada.
+
+---
+
+👨‍💻 Boa sorte! Depois de resolver, experimente criar seus próprios exemplos com essas funções!
+--- 
+
+### 9. Lista de Tarefas com Prioridades
 
 Crie um programa que:
 - Permita ao usuário inserir uma tarefa (string) e uma prioridade (número).
@@ -9,7 +98,7 @@ Adicione botões no HTML para adicionar uma nova tarefa e limpar a lista. Use `i
 
 ---
 
-### 2. Cálculo de Média de Notas
+### 10. Cálculo de Média de Notas
 
 Crie um formulário onde o usuário insira notas (números) de um aluno uma por vez.
 - Use `push` para adicionar a nota a um array.
@@ -20,7 +109,7 @@ Use `innerHTML` para mostrar os resultados em tempo real.
 
 ---
 
-### 3. Filtro de Palavras
+### 11. Filtro de Palavras
 
 Permita ao usuário digitar uma lista de palavras separadas por vírgula.
 - Transforme a string em um array com `split`.
@@ -29,7 +118,7 @@ Permita ao usuário digitar uma lista de palavras separadas por vírgula.
 
 ---
 
-### 4. Ordenador de Números
+### 12. Ordenador de Números
 
 Crie um campo de input onde o usuário digita números separados por vírgula.
 - Armazene os números em um array.
@@ -38,7 +127,7 @@ Crie um campo de input onde o usuário digita números separados por vírgula.
 
 ---
 
-### 5. Verificador de Lista de Compras
+### 13. Verificador de Lista de Compras
 
 Permita ao usuário inserir itens de uma lista de compras.
 - Armazene os itens em um array.
@@ -49,7 +138,7 @@ Use um botão para adicionar e outro para buscar. Exiba os dados com `innerHTML`
 
 ___
 
-### 6. Cadastro de Usuários
+### 14. Cadastro de Usuários
 
 Crie um formulário com nome, idade e email.
 - Armazene cada cadastro como um objeto dentro de um array.
@@ -58,7 +147,7 @@ Crie um formulário com nome, idade e email.
 
 ---
 
-### 7. Contador de Tipos de Produto
+### 15. Contador de Tipos de Produto
 
 Crie um array de objetos com produtos, cada um com nome e tipo (ex: "fruta", "bebida", "limpeza").
 - Ao clicar em um botão, exiba quantos produtos existem de cada tipo.
@@ -66,7 +155,7 @@ Crie um array de objetos com produtos, cada um com nome e tipo (ex: "fruta", "be
 
 ---
 
-### 8. Atualizador de Status de Tarefa
+### 16. Atualizador de Status de Tarefa
 
 Crie uma lista de tarefas (array de objetos com `nome` e `concluida: false`).
 - Exiba as tarefas com um botão "Concluir".
@@ -75,7 +164,7 @@ Crie uma lista de tarefas (array de objetos com `nome` e `concluida: false`).
 
 ---
 
-### 9. Buscador de Funcionário
+### 17. Buscador de Funcionário
 
 Crie um array de objetos com funcionários (nome, cargo e email).
 - Permita buscar pelo nome usando `find`.
@@ -83,7 +172,7 @@ Crie um array de objetos com funcionários (nome, cargo e email).
 
 ---
 
-### 10. Sistema de Votação
+### 18. Sistema de Votação
 
 Crie um array de objetos representando candidatos com nome e votos.
 - Adicione botões de "Votar" em cada um.
